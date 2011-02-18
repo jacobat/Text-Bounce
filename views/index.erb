@@ -1,0 +1,26 @@
+<!doctype html>  
+
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+    </header>
+    
+    <div id="main">
+      <% @messages.each do |message| %>
+        <div class="message"><%= message.message %></div>
+      <% end %>
+    </div>
+    
+    <footer>
+    </footer>
+  </div> <!--! end of #container -->
+
+</body>
+</html>
