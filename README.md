@@ -6,7 +6,7 @@ Basic sinatra app demonstrating POST and GET.
 Install
 -------
 
-    git clone ...
+    git clone git://github.com/jacobat/Text-Bounce.git
     cd textbounce
     bundle
     sqlite3 sinatra_application.sqlite3.db
